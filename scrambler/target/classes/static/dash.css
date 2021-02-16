@@ -1,0 +1,52 @@
+.html-text-box {
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+}
+.html-text-box:active {
+    border-color: #9AD5CA;
+}
+body {
+    background-color: #f8f9fb;
+}
+.h1 {
+  font-family:'Raleway', sans-serif;
+  text-transform: lowercase;
+  font-weight: 900;
+  line-height: 1.2em;
+  letter-spacing: .025em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 30px;
+    color: #2B2C28;
+padding-left: 10px;
+    text-decoration: none;
+}
+.submitbtn {
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #9AD5CA;
+    font-size: 20px;
+
+    padding: 15px 20px 15px 20px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+}
+.submitbtn:hover {
+    background: #F3F3F3;
+    color: #000;
+    transition: 0.2s;
+}
+::selection {
+    background: #9AD5CA;
+    color: #2B2C28;
+    padding: 100px;
+}
+.dash-footer {
+    text-transform: uppercase;
+    font-family: "Questrial", sans-serif;
+    color: #6b88a4;
+    font-size: 14px;
+    padding: 0.5px;
+}
